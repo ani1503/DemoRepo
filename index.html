@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency Platform</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>TravelEase</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#accommodations">Accommodations</a></li>
+                <li><a href="#flights">Flights</a></li>
+                <!-- <li><a href="#recommendations">Recommendations</a></li> -->
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Explore the World with TravelEase</h2>
+            <p>Find the best deals on flights, hotels, and activities.</p>
+            <a href="#home" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="cards">
+            <!-- Repeat this block for each destination -->
+            <div class="card">
+                <img src="" alt="Destination Image">
+                <h3>Destination Name</h3>
+                <p>Short description of the destination.</p>
+                <a href="#destinations" class="btn">Explore</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="accommodations">
+        <h2>Accommodations</h2>
+        <div class="cards">
+            <!-- Repeat this block for each accommodation -->
+            <div class="card">
+                <img src="" alt="Hotel Image">
+                <h3>Hotel Name</h3>
+                <p>Short description of the hotel.</p>
+                <a href="#accommodations" class="btn">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="flights">
+        <h2>Flights</h2>
+        <form id="flight-search">
+            <label for="origin">Origin:</label>
+            <input type="text" id="origin" name="origin">
+
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination">
+
+            <label for="departure-date">Departure Date:</label>
+            <input type="date" id="departure-date" name="departure-date">
+
+            <label for="return-date">Return Date:</label>
+            <input type="date" id="return-date" name="return-date">
+
+            <button type="submit" class="btn">Search Flights</button>
+        </form>
+    </section>
+
+    <!-- <section id="recommendations">
+        <h2>Personalized Recommendations</h2>
+        <div id="recommendations-content">
+            
+        </div>
+    </section> -->
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 TravelEase. All rights reserved.</p>
+            <p>Contact us at: support@travelease.com</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
